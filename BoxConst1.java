@@ -13,17 +13,16 @@ class Box {
     public void calc_vol() {
         vside = Math.pow(side, 3);
         vol = width * height * depth;
-        System.out.println("volume of the cube is: " + vside);
-        System.out.println("Volume of the cuboid is: " + vol);
+        System.out.println("\nvolume of the cube is: " + vside);
+        System.out.println("\nVolume of the cuboid is: " + vol);
         if (vside > vol) {
-            System.out.println("The volume of cube is greater.");
+            System.out.println("\nThe volume of cube is greater.");
         } else {
-            System.out.println("The volume of cuboid is greater.");
+            System.out.println("\nThe volume of cuboid is greater.");
         }
     }
 }
-
-public class BoxConst1 {
+class BoxConst1 {
     public static void main(String[] args) {
         Box sq = new Box();
 
