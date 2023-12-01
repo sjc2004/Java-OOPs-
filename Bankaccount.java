@@ -8,11 +8,11 @@ public class accprog {
         choice = 0;
         double inter = 0.05;
 
-        System.out.println("WELCOME TO RAUNAK BANK");
+        System.out.println("WELCOME TO STCET BANK");
         System.out.println("Enter your account number:");
         Scanner sc = new Scanner(System.in);
         ant = sc.nextInt();
-        System.out.println("Thanks for choosing RAUNAK BANK. Your account number is " + ant);
+        System.out.println("Thanks for choosing STCET BANK. Your account number is " + ant);
         System.out.println("Enter your initial account balance:");
         bal = sc.nextInt();
         System.out.println("Initial Balance " + bal);
